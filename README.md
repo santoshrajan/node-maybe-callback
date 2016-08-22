@@ -27,6 +27,21 @@ fs.exists('test.txt', err => {
 #### Example with node-maybe-callback
 
 ```javascript
+fs.exists('test.txt', mayBe(() => {
+  fs.readFile('test.txt', mayBe(data => {
+    // do something
+  })) 
+}))
+
+## Install
+
+```
+$ npm install node-maybe-callback
+```
+
+## usage
+
+```javascript
 const errorHandler = e => console.log(e)
 const mayBe = require('node-maybe-callback')(errorHandler)
 fs.exists('test.txt', mayBe(() => {
@@ -34,4 +49,4 @@ fs.exists('test.txt', mayBe(() => {
     // do something
   })) 
 }))
-```
+``````

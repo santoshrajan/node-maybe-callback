@@ -1,6 +1,6 @@
 {
   "name": "node-maybe-callback",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Error free callback handler for NodeJS",
   "main": "lib/index.js",
   "scripts": {
