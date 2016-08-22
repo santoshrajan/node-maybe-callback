@@ -32,6 +32,7 @@ fs.exists('test.txt', mayBe(() => {
     // do something
   })) 
 }))
+```
 
 ## Install
 
@@ -49,4 +50,4 @@ fs.exists('test.txt', mayBe(() => {
     // do something
   })) 
 }))
-``````
+```
