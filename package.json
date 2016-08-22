@@ -1,0 +1,25 @@
+{
+  "name": "node-maybe-callback",
+  "version": "0.0.1",
+  "description": "Error free callback handler for NodeJS",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoshrajan/node-maybe-callback.git"
+  },
+  "keywords": [
+    "Error",
+    "Free",
+    "Callback",
+    "Handler"
+  ],
+  "author": "Santosh Rajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santoshrajan/node-maybe-callback/issues"
+  },
+  "homepage": "https://github.com/santoshrajan/node-maybe-callback#readme"
+}
